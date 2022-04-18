@@ -14,5 +14,4 @@ syntax on
 " https://stackoverflow.com/questions/2295410/how-to-prevent-the-cursor-from-moving-back-one-character-on-leaving-insert-mode/53485092#53485092
 autocmd InsertLeave * :normal! `^
 set virtualedit=onemore
-autocmd TextChanged,TextChangedI <buffer> silent write
 vnoremap <C-C> :w !xsel -b<CR><CR>
