@@ -2,6 +2,7 @@ inoremap jj <ESC>
 let mapleader = "'"
 noremap l h
 noremap ; l
+noremap h ;
 set number
 set noswapfile
 set hlsearch
